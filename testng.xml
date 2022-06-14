@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "flipkart">
+	<test name = "Ipad search">
+		<parameter name="browser" value="chrome"/>
+		<parameter name="url" value="https://www.flipkart.com/"/>
+			<classes>
+				<class name="qa.tests.SearchItem"/>
+			</classes>
+	</test>
+</suite>
